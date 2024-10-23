@@ -1,0 +1,8 @@
+title: OpenKit
+locale: en-US
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
