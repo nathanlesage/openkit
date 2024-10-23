@@ -3,29 +3,28 @@
   <head>
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-    body, html {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: white;
-    }
-    
-    #general-container {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-    
-    h1#page-heading {
-        font-size: 200%;
-    }
-    </style>
+    <link rel="stylesheet" href="{{ 'assets/main.css' | relative_url }}">
   </head>
   <body>
-    <div id="general-container">
-      <h1 id="page-heading">{{ page.title }}</h1>
-      <section id="content">
-        {{ content }}
+    <div id="app">
+      <header>
+        <div class="container flex" style="gap: 20px;">
+          <img src="{{ 'assets/openkit.svg' | relative_url }}">
+          <h1 id="page-heading">{{ page.title }}</h1>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          {{ content }}
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          OpenKit &copy; 2024 | <a href="https://github.com/nathanlesage/openkit">View on GitHub</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
