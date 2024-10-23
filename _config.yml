@@ -6,3 +6,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
