@@ -33,6 +33,10 @@ main {
   overflow: auto;
 }
 
+a {
+  color: inherit;
+}
+
 header, footer {
   background-color: #cadaf1;
   background: linear-gradient(#7caaea, #cadaf1);
