@@ -71,10 +71,25 @@ div.tool-descriptor {
   background-color: #eeeeee;
   padding: 10px;
   border-radius: 10px;
+  position: relative;
 
   h2 {
     font-size: 16px;
     margin: 0;
+  }
+
+  .info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    text-decoration: none;
   }
 
   a.launch-button {
