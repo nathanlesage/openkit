@@ -1,12 +1,50 @@
 ---
-title: Web-Tools Registry
+title:
 ---
-<p>
-  OpenKit is a collection of small free and open source web-tools.
-</p>
+<div class="container">
+  <p>
+    OpenKit is a collection of small free and open source web-tools.
+  </p>
 
-<!--<input type="search" placeholder="What do you need to do?">-->
+  <input id="searchbar" type="search" placeholder="What do you need to do?" autofocus>
+</div>
 
-<p>
-  <em>We will add more info here, soon.</em>
-</p>
+
+<!-- TODO: Add filters -->
+
+<div class="flex wrap gap" style="padding: 0px 20px; margin-bottom: 40px;">
+  {% for tool in site.data.tools %}
+    <div class="tool-descriptor flex column space-between">
+      <h2 class="name">{{ tool.name }}</h2>
+      <p class="synopsis">{{ tool.synopsis }}</p>
+      <div class="flex wrap gap-small">
+        {% assign tags = tool.tags | slice: 0, 5 %}
+        {% assign all_tags = tool.tags | size %}
+        {% assign shown_tags = tags | size %}
+        {% assign remaining_tags = all_tags | minus: shown_tags %}
+        {% for tag in tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+        {% if remaining_tags > 0 %}
+          <span class="tag">&plus; {{ remaining_tags }} more</span>
+        {% endif %}
+      </div>
+
+      <div>
+        {% if tool.type == 'open-source' %}
+          <span class="attribute success">Open Source</span>
+        {% else %}
+          <span class="attribute danger">Proprietary</span>
+        {% endif %}
+        {% if tool.ads %}
+          <span class="attribute danger">Shows ads</span>
+        {% endif %}
+        {% if tool.mobile %}
+          <span class="attribute success">Mobile ready</span>
+        {% endif %}
+      </div>
+
+      <a href="{{ tool.link }}" class="launch-button">Launch</a>
+    </div>
+  {% endfor %}
+</div>

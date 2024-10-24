@@ -1,0 +1,218 @@
+- name: QRage Pro
+  author: Hendrik Erz
+  author_website: https://www.hendrik-erz.de/
+  link: https://nathanlesage.github.io/qrage-pro
+  source: https://github.com/nathanlesage/qrage-pro
+  synopsis: Generate QR codes on the fly and download as PNG or JPEG
+  category: business
+  tags: [
+    qrcode, qr, quick response, generator, png, jpg, logo, icon, color,
+    customization, squares, dots
+  ]
+  description: |
+    QRate Pro is a free and open source QR code generator that allows you to
+    quickly generate QR codes for anything in your browser, and download them as
+    JPEG or PNG images. You can encode plain text, URLs, emails, phone numbers,
+    WiFi-credentials, calendar events, and VCards. In addition, you can
+    customize the resulting QR codes. You can choose between the known square
+    black and white codes, use a dot-matrix or a fluid "Rorschach-blot" layout,
+    choose custom foreground and background colors, and even add an icon or logo
+    onto the QR code.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: true
+################################################################################
+- name: Clipboard Inspector
+  author: Moqups Labs
+  author_website: https://labs.moqups.com/
+  link: https://evercoder.github.io/clipboard-inspector/
+  source: http://github.com/evercoder/clipboard-inspector
+  synopsis: Inspect clipboard data
+  category: development
+  tags: [
+    clipboard, javascript, inspect, view, copy, paste, drop, data, images, text,
+    files, browser, website, web development
+  ]
+  description: |
+    Clipboard Inspector is a free and open source developer tool that allows to
+    inspect all types of data and other things that are available via the
+    Clipboard API to websites in the browser. It also works with drop events and
+    displays the information accordingly, too.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: true
+################################################################################
+- name: Pandoc Profile Generator
+  author: Hendrik Erz
+  author_website: https://www.hendrik-erz.de/
+  link: https://nathanlesage.github.io/pandoc-profile-generator/
+  source: https://github.com/nathanlesage/pandoc-profile-generator
+  synopsis: Create and edit Pandoc defaults files
+  category: writing
+  tags: [
+    pandoc, default file, profile, defaults, yaml, editor, viewer, parse, gui,
+    form
+  ]
+  description: |
+    Pandoc Profile Generator is a small web-app that offers a graphical
+    interface for working with Pandoc's defaults files. Defaults files can be
+    tricky since Pandoc is a complex platform that has amassed tons of file
+    parsers, writers, and extensions. Oftentimes, it is hard to parse the
+    documentation to find the pieces relevant to one's own use-case.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: true
+################################################################################
+- name: iCal Event Maker
+  author: Luca Marudot
+  author_website: https://www.marudot.com
+  link: https://ical.marudot.com
+  synopsis: Generate ics files (iCalendar) on the fly
+  category: office
+  tags: [
+    ical, calendar, icalendar, event, file, gui, form
+  ]
+  description: |
+    iCal Event Maker is a free tool to create ics files with multiple,
+    optionally recurring events that can be quickly imported into existing
+    calendar apps from Google, Apple, Microsoft, or Linux. The app makes it easy
+    to generate ics files for, e.g., seminar series, workshops, meetings, or
+    other event series, and offers support for links, locations, and timezones.
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: false
+  local: false
+################################################################################
+- name: carbon
+  author: Carbon
+  author_website: https://x.com/carbon_app
+  link: https://carbon.now.sh/
+  source: https://github.com/carbon-app/carbon
+  synopsis: Create and share beautiful images of your source code
+  category: development
+  tags: [
+    code, syntax, highlighting, programming, image, png, jpg, customization
+  ]
+  description: |
+    Carbon is a tool to quickly turn source code into an image with syntax
+    highlighting that can be shared, e.g., on social media. It offers a variety
+    of themes, syntax highlighting for many languages, and many export options,
+    including copy to clipboard, download as PNG or SVG, and many options to
+    customize the appearance.
+  mobile: true
+  type: open-source
+  ads: true
+  premium: true
+  local: false
+################################################################################
+- name: Pomofocus
+  author: Yuya Uzu
+  author_website: https://uzu.works/
+  link: https://pomofocus.io/
+  synopsis: An online Pomodoro timer to boost your productivity
+  category: productivity
+  tags: [
+    pomodoro, timer, focus, productivity, task scheduling, work, break, tomato
+  ]
+  description: |
+    Pomofocus is a customizable pomodoro timer that works on desktop and mobile
+    browsers. The aim of this app is to help you focus on any task you are
+    working on, such as studying, writing, or coding. The app is inspired by the
+    Pomodoro technique, which is a time management method developed by Francesco
+    Cirillo.
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: true
+  local: false
+################################################################################
+- name: Contrast Ratio
+  author: siege media
+  author_website: https://www.siegemedia.com/
+  link: https://www.siegemedia.com/contrast-ratio
+  synopsis: Calculate contrast ratio between two colors
+  category: graphics
+  tags: [
+    contrast, ratio, calculator, wcag, standard, web, luminance, w3c, a11y,
+    accessibility, recommendation
+  ]
+  description: |
+    Contrast ratio calculates the contrast ratio between two colors in
+    accordance with the WCAG 2.1 specification on contrast ratio. This allows to
+    check whether two colors can be used in accessibility (a11y) contexts on the
+    web.
+  mobile: true,
+  type: properitary
+  ads: false
+  premium: false
+  local: false
+################################################################################
+- name: Google Font to SVG Path
+  author: Dan Marshall
+  author_website: https://github.com/danmarshall
+  link: https://danmarshall.github.io/google-font-to-svg-path/
+  source: https://github.com/danmarshall/google-font-to-svg-path
+  synopsis: Turn text into SVGs using various fonts
+  category: graphics
+  tags: [
+    svg, font, converter, customize
+  ]
+  description: |
+    Google Font to SVG Path takes some user-specified text and turns it into an
+    SVG graphics using Google fonts or user-specified custom fonts. It offers
+    various customization options to fine-tune the output and offers a preview.
+  mobile: false
+  type: open-source
+  ads: true
+  premium: false
+  local: true
+################################################################################
+- name: Moodist
+  author: Maze
+  author_website: https://remvze.com/
+  link: https://moodist.mvze.net/
+  source: https://github.com/remvze/moodist
+  synopsis: Ambient sounds for focus and calm
+  category: productivity
+  tags: [
+    audio, sounds, ambient, binaural, white noise, pink noise, brown noise,
+    tinnitus, sleep timer, pomodoro, notepad, countdown
+  ]
+  description: |
+    Moodist is an ambient sound generator that allows to mix a variety of sounds
+    together to increase focus or productivity. It offers 78 different sounds in
+    the categories nature, rain, animals, urban, places, transport, things,
+    noise, and binaural beats. It offers saving mixes into presets, a sleep
+    timer, and some productivity tools.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: false
+################################################################################
+- name: What's My DNS?
+  author:
+  author_website:
+  link: https://www.whatsmydns.net/
+  synopsis: Check DNS entries across the world
+  category: development
+  tags: [
+    dns, checker, lookup, domain, dns entries, a, aaaa, txt, cname, alias, mx
+  ]
+  description: |
+    What's My DNS? is a lookup tool that shows you what DNS entries various
+    name servers worldwide have for given domains. It allows checking the status
+    of various DNS entry types, such as A, AAAA, TXT, CNAME, or MX entries, and
+    their corresponding values.
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: false
+  local: false

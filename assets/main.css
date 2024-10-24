@@ -9,6 +9,7 @@ body, html {
   background-color: white;
   width: 100vw;
   height: 100vh;
+  cursor: default;
 }
 
 #app {
@@ -26,6 +27,13 @@ body, html {
 
 .flex {
   display: flex;
+
+  &.row { flex-direction: row; }
+  &.column { flex-direction: column; }
+  &.wrap { flex-wrap: wrap; }
+  &.gap { gap: 20px; }
+  &.gap-small { gap: 3px; }
+  &.space-between { justify-content: space-between; }
 }
 
 main {
@@ -46,9 +54,59 @@ header, footer {
   overflow: hidden;
 }
 
-h1#page-heading {
+#searchbar {
+  display: block;
   font-size: 200%;
-  margin: 0;
+  margin: 20px 0;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  padding: 0px 20px;
+  line-height: 40px;
+}
+
+div.tool-descriptor {
+  width: 200px;
+  aspect-ratio: 1;
+  font-size: 16px;
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 10px;
+
+  h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  a.launch-button {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    line-height: 20px;
+    background-color: #00e49c;
+    color: #333333;
+    transition: 0.2s background-color ease;
+    text-align: center;
+    margin: 10px 0;
+
+    &:hover {
+      background-color: #45fbc2;
+    }
+  }
+
+  .tag, .attribute {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 80%;
+    text-transform: lowercase;
+  }
+
+  .attribute.success { background-color: green; }
+  .attribute.danger { background-color: red; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,5 +118,25 @@ h1#page-heading {
   header, footer {
     background-color: #001f3b;
     background: linear-gradient(#002d55, #001f3b);
+  }
+
+  #searchbar {
+    background-color: #525252;
+    border-color: #333;
+    color: white;
+    &::placeholder {
+      color: #aaa;
+    }
+  }
+
+  div.tool-descriptor {
+    background-color: #525252;
+
+    a.launch-button {
+      border-color: #333;
+      &:hover {
+        background-color: #45fbc2;
+      }
+    }
   }
 }
