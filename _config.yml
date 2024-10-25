@@ -12,3 +12,8 @@ defaults:
       path: ""
     values:
       layout: default
+
+exclude:
+- LICENSE
+- README.md
+- CNAME
