@@ -1,8 +1,8 @@
-<center>
-  <img src="assets/openkit.svg" alt="OpenKit Logo" height="100">
-</center>
-
-# OpenKit
+<h1 align="center">
+    <img src="assets/openkit.svg" alt="OpenKit Logo" height="100">
+  <br/>
+  OpenKit
+</h1>
 
 > OpenKit is a collection of small FOSS web-tools. Anything you sometimes need
 > but for which you don't need any dedicated app. It's your app directory for
