@@ -1,8 +1,12 @@
+<center>
+  <img src="assets/openkit.svg" alt="OpenKit Logo" height="100">
+</center>
+
 # OpenKit
 
 > OpenKit is a collection of small FOSS web-tools. Anything you sometimes need
 > but for which you don't need any dedicated app. It's your app directory for
-> tiny tasks.
+> tiny tasks. [Launch it here](https://openkit.eu/).
 
 OpenKit is a search engine and registry for small web-based tools that run in
 your browser. Search for the tools you need, and launch them directly from the
