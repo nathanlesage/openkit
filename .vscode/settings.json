@@ -2,5 +2,6 @@
   "files.associations": {
     "*.html": "liquid"
   },
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "svg.preview.background": "dark-transparent"
 }

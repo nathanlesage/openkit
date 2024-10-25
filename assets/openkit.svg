@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="86" height="26" viewBox="-1 -4 85 22">
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="26" viewBox="-1 -4 88 22">
   <g
     id="openkit-text"
     stroke-linecap="round"
     fill-rule="evenodd"
     font-size="9pt"
-    stroke="#ededed"
-    fill="#ededed"
+    stroke="#ffffff"
+    fill="#ffffff"
     stroke-width="0.5"
   >
     <path
@@ -31,8 +31,8 @@
       id="6" vector-effect="non-scaling-stroke" />
   </g>
 
-  <g fill="none" stroke="#0046a8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
-    class="feather feather-box" transform="translate(60, -5)">
+  <g fill="none" stroke="#1c8bd5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+    class="feather feather-box" transform="translate(65, -5)">
     <path
       d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
     </path>

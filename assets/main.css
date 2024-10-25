@@ -62,13 +62,18 @@ a {
 }
 
 header, footer {
-  background-color: #cadaf1;
-  background: linear-gradient(#7caaea, #cadaf1);
+  background-color: #001f3b;
+  background: linear-gradient(#00549f, #001f3b);
   color: white;
   line-height: 40px;
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
+}
+
+img#header-logo {
+  height: 55px;
+  margin-top: -10px;
 }
 
 #searchbar {
@@ -155,11 +160,6 @@ div.tool-descriptor {
   body {
     background-color: #333;
     color: white;
-  }
-
-  header, footer {
-    background-color: #001f3b;
-    background: linear-gradient(#002d55, #001f3b);
   }
 
   #searchbar {
