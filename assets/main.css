@@ -68,6 +68,7 @@ header, footer {
   line-height: 40px;
   white-space: nowrap;
   overflow: hidden;
+  text-align: center;
 }
 
 #searchbar {
