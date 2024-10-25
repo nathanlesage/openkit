@@ -79,7 +79,7 @@ header, footer {
   border-radius: 20px;
   padding: 0px 20px;
   line-height: 40px;
-  max-width: 100%;
+  width: 100%;
 }
 
 div.tool-descriptor {
