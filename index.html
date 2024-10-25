@@ -14,13 +14,13 @@ title:
 
 <div class="flex wrap gap" style="padding: 0px 20px; margin-bottom: 40px;">
   {% for tool in site.data.tools %}
-    <div class="tool-descriptor flex column space-between">
+    <div class="tool-descriptor flex column space-between {{ tool.category }}">
       <a href="#" class="info" title="Click to view details">i</a>
 
       <h2 class="name">{{ tool.name }}</h2>
       <p class="synopsis">{{ tool.synopsis }}</p>
       <div class="flex wrap gap-small">
-        {% assign tags = tool.tags | slice: 0, 5 %}
+        {% assign tags = tool.tags | slice: 0, 3 %}
         {% assign all_tags = tool.tags | size %}
         {% assign shown_tags = tags | size %}
         {% assign remaining_tags = all_tags | minus: shown_tags %}
@@ -32,7 +32,7 @@ title:
         {% endif %}
       </div>
 
-      <div>
+      <div class="flex wrap gap-small" style="margin-top: 3px;">
         {% if tool.type == 'open-source' %}
           <span class="attribute success">Open Source</span>
         {% else %}

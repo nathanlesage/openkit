@@ -1,3 +1,19 @@
+:root {
+  --business-light: #ffffb4;
+  --development-light: #86ffff;
+  --writing-light: #b0deb0;
+  --office-light: #c3e2fe;
+  --graphics-light: #ffc2ff;
+  --productivity-light: #ffb2b2;
+
+  --business-dark: #4b4b0f;
+  --development-dark: #015a5a;
+  --writing-dark: #204320;
+  --office-dark: #203445;
+  --graphics-dark: #502150;
+  --productivity-dark: #652222;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -15,8 +31,8 @@ body, html {
 #app {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 60px auto 60px;
 }
 
 .container {
@@ -56,22 +72,31 @@ header, footer {
 
 #searchbar {
   display: block;
-  font-size: 200%;
+  font-size: 120%;
   margin: 20px 0;
   border: 1px solid #aaa;
   border-radius: 20px;
   padding: 0px 20px;
   line-height: 40px;
+  max-width: 100%;
 }
 
 div.tool-descriptor {
   width: 200px;
-  aspect-ratio: 1;
   font-size: 16px;
   background-color: #eeeeee;
   padding: 10px;
   border-radius: 10px;
   position: relative;
+  box-shadow: 5px 5px 5px 0px #2022;
+
+  /* categories */
+  &.business { background-color: var(--business-light); }
+  &.development { background-color: var(--development-light); }
+  &.writing { background-color: var(--writing-light); }
+  &.office { background-color: var(--office-light); }
+  &.graphics { background-color: var(--graphics-light); }
+  &.productivity { background-color: var(--productivity-light); }
 
   h2 {
     font-size: 16px;
@@ -88,7 +113,7 @@ div.tool-descriptor {
     height: 20px;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 1px solid #eee;
+    border: 1px solid #333;
     text-decoration: none;
   }
 
@@ -108,6 +133,7 @@ div.tool-descriptor {
     &:hover {
       background-color: #45fbc2;
     }
+
   }
 
   .tag, .attribute {
@@ -147,11 +173,24 @@ div.tool-descriptor {
   div.tool-descriptor {
     background-color: #525252;
 
+    &.business { background-color: var(--business-dark); }
+    &.development { background-color: var(--development-dark); }
+    &.writing { background-color: var(--writing-dark); }
+    &.office { background-color: var(--office-dark); }
+    &.graphics { background-color: var(--graphics-dark); }
+    &.productivity { background-color: var(--productivity-dark); }
+
     a.launch-button {
       border-color: #333;
       &:hover {
         background-color: #45fbc2;
       }
     }
+  }
+}
+
+@media (max-width: 460px) {
+  div.tool-descriptor {
+    width: 100%;
   }
 }
