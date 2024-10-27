@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="assets/openkit.svg" alt="OpenKit Logo" height="100">
+    <img src="assets/openkit.svg" alt="OpenKit" height="100">
   <br/>
   OpenKit
 </h1>
