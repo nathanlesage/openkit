@@ -53,7 +53,6 @@ body, html {
 }
 
 main {
-  flex-grow: 1;
   overflow: auto;
 }
 
@@ -66,13 +65,8 @@ p {
 }
 
 header, footer {
-  background-color: #001f3b;
-  background: linear-gradient(#00549f, #001f3b);
+  background-color: #b3bfd1;
   color: white;
-  line-height: 40px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-align: center;
 
   .container.flex {
     align-items: center;
@@ -81,22 +75,30 @@ header, footer {
   }
 }
 
+footer .container.flex {
+  justify-content: center;
+}
+
 img#header-logo {
   height: 100%;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav {
   display: inline-block;
 
-  li a {
-    background-color: rgba(255, 255, 255, .3);
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: inline-block;
-    padding: 5px 20px;
-    border-radius: 10px;
-    text-decoration: none;
+
+    li a {
+      background-color: rgba(255, 255, 255, .3);
+      display: inline-block;
+      padding: 5px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+    }
   }
 }
 
@@ -151,7 +153,7 @@ div.tool-descriptor {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    border: 1px solid #ccc;
+    border: 1px solid #878787;
     border-radius: 20px;
     line-height: 20px;
     background-color: #00e49c;
@@ -186,6 +188,10 @@ div.tool-descriptor {
     color: white;
   }
 
+  header, footer {
+    background-color: #004480;
+  }
+
   #searchbar {
     background-color: #525252;
     border-color: #333;
@@ -206,7 +212,7 @@ div.tool-descriptor {
     &.productivity { background-color: var(--productivity-dark); }
 
     a.launch-button {
-      border-color: #333;
+      border-color: #004e0c;
       &:hover {
         background-color: #45fbc2;
       }
