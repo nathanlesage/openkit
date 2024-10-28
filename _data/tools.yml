@@ -1,4 +1,5 @@
-- name: QRage Pro
+- tool_name: QRage Pro
+  slug: qrage-pro
   author: Hendrik Erz
   author_website: https://www.hendrik-erz.de/
   link: https://nathanlesage.github.io/qrage-pro
@@ -24,7 +25,8 @@
   premium: false
   local: true
 ################################################################################
-- name: Clipboard Inspector
+- tool_name: Clipboard Inspector
+  slug: clipboard-inspector
   author: Moqups Labs
   author_website: https://labs.moqups.com/
   link: https://evercoder.github.io/clipboard-inspector/
@@ -46,7 +48,8 @@
   premium: false
   local: true
 ################################################################################
-- name: Pandoc Profile Generator
+- tool_name: Pandoc Profile Generator
+  slug: pandoc-profile-generator
   author: Hendrik Erz
   author_website: https://www.hendrik-erz.de/
   link: https://nathanlesage.github.io/pandoc-profile-generator/
@@ -69,7 +72,8 @@
   premium: false
   local: true
 ################################################################################
-- name: iCal Event Maker
+- tool_name: iCal Event Maker
+  slug: ical-event-maker
   author: Luca Marudot
   author_website: https://www.marudot.com
   link: https://ical.marudot.com
@@ -90,7 +94,8 @@
   premium: false
   local: false
 ################################################################################
-- name: carbon
+- tool_name: carbon
+  slug: carbon
   author: Carbon
   author_website: https://x.com/carbon_app
   link: https://carbon.now.sh/
@@ -112,7 +117,8 @@
   premium: true
   local: false
 ################################################################################
-- name: Pomofocus
+- tool_name: Pomofocus
+  slug: pomofocus
   author: Yuya Uzu
   author_website: https://uzu.works/
   link: https://pomofocus.io/
@@ -133,7 +139,8 @@
   premium: true
   local: false
 ################################################################################
-- name: Contrast Ratio
+- tool_name: Contrast Ratio
+  slug: contrast-ratio
   author: siege media
   author_website: https://www.siegemedia.com/
   link: https://www.siegemedia.com/contrast-ratio
@@ -154,7 +161,8 @@
   premium: false
   local: false
 ################################################################################
-- name: Google Font to SVG Path
+- tool_name: Google Font to SVG Path
+  slug: google-font-to-svg-path
   author: Dan Marshall
   author_website: https://github.com/danmarshall
   link: https://danmarshall.github.io/google-font-to-svg-path/
@@ -174,7 +182,8 @@
   premium: false
   local: true
 ################################################################################
-- name: Moodist
+- tool_name: Moodist
+  slug: moodist
   author: Maze
   author_website: https://remvze.com/
   link: https://moodist.mvze.net/
@@ -197,7 +206,8 @@
   premium: false
   local: false
 ################################################################################
-- name: What's My DNS?
+- tool_name: What's My DNS?
+  slug: whats-my-dns
   author:
   author_website:
   link: https://www.whatsmydns.net/

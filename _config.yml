@@ -6,12 +6,22 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-datapage-generator
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+
+# Auto-page generation for the tools
+page_gen:
+- data: tools
+  template: tools
+  dir: tools # Leads to openkit.eu/tools/<name>
+  name: slug # Refers to name of each tool
+  index_files: true # Generate a folder with an index file
+  title: tool_name
 
 exclude:
 - LICENSE

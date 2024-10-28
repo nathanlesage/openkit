@@ -1,0 +1,105 @@
+---
+layout: default
+---
+<article class="container">
+  <p>
+    <a href="{{ '/' | relative_url }}">&larr; Back to the registry</a>
+  </p>
+
+  <h1>{{ page.tool_name }} <span class="attribute {{ page.category }}">{{ page.category }}</span></h1>
+  <p><em>{{ page.synopsis }}</em></p>
+
+  <table class="tool-metadata">
+    <tr>
+      <th>Author</th>
+      <td>
+        {% unless page.author %}
+        Unknown author
+        {% else %}
+        <a href="{{ page.author_website }}">{{ page.author }}</a>
+        {% endunless %}
+      </td>
+    </tr>
+
+    <tr>
+      <th>Source code</th>
+      <td>
+        {% unless page.source %}
+        Source code not available
+        {% else %}
+        <a href="{{ page.source }}">{{ page.source }}</a>
+        {% endunless %}
+      </td>
+    </tr>
+
+    <tr>
+      <th>Tags</th>
+      <td>
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </td>
+    </tr>
+
+    <tr>
+      <th>Mobile ready</th>
+      <td>
+        {% if page.mobile %}
+        <span class="attribute success">mobile ready</span>
+        {% else %}
+        <span class="attribute danger">desktop only/untested</span>
+        {% endif %}
+      </td>
+    </tr>
+
+    <tr>
+      <th>Type</th>
+      <td>
+        {% if page.type == 'open-source' %}
+          <span class="attribute sucess">Open Source/source available</span>
+        {% else %}
+          <span class="attribute danger">Proprietary</span>
+        {% endif %}
+      </td>
+    </tr>
+
+    <tr>
+      <th>Advertisement</th>
+      <td>
+        {% if page.ads %}
+        <span class="attribute danger">shows advertisement</span>
+        {%  else %}
+        <span class="attribute success">Does not show ads</span>
+        {% endif %}
+      </td>
+    </tr>
+
+    <tr>
+      <th>Premium</th>
+      <td>
+        {% if page.premium %}
+        <span class="attribute">Offers premium option</span>
+        {% else %}
+        <span class="attribute">Does not have a premium option</span>
+        {% endif %}
+      </td>
+    </tr>
+
+    <tr>
+      <th>Local</th>
+      <td>
+        {% if page.local %}
+          <span class="attribute">Works locally</span>
+        {% else %}
+        <span class="attribute">Sends data to server</span>
+        {% endif %}
+      </td>
+    </tr>
+  </table>
+
+  <a href="{{ page.link }}" class="launch-button">Launch</a>
+
+  <div class="description">
+    {{ page.description }}
+  </div>
+</article>

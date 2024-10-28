@@ -102,6 +102,23 @@ nav {
   }
 }
 
+table.tool-metadata {
+  border-collapse: collapse;
+
+  th, td {
+    padding: 5px;
+  }
+
+  tr:not(:last-child) td {
+    border-bottom: 1px dashed #666;
+  }
+
+  th {
+    text-align: right;
+    background-color: #ddd;
+  }
+}
+
 #searchbar {
   display: block;
   font-size: 120%;
@@ -111,6 +128,49 @@ nav {
   padding: 0px 20px;
   line-height: 40px;
   width: 100%;
+}
+
+a.launch-button {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid #878787;
+  border-radius: 20px;
+  line-height: 20px;
+  background-color: #00e49c;
+  color: #333333;
+  transition: 0.2s background-color ease;
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
+
+  &:hover {
+    background-color: #45fbc2;
+  }
+}
+
+span.tag, span.attribute {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-size: 80%;
+  text-transform: lowercase;
+
+  &.success { background-color: green; }
+  &.danger { background-color: red; }
+
+  &.business, &.development, &.writing, &.office, &.graphics, &.productivity {
+    color: #333;
+  }
+
+  &.business { background-color: var(--business-light); }
+  &.development { background-color: var(--development-light); }
+  &.writing { background-color: var(--writing-light); }
+  &.office { background-color: var(--office-light); }
+  &.graphics { background-color: var(--graphics-light); }
+  &.productivity { background-color: var(--productivity-light); }
 }
 
 div.tool-descriptor {
@@ -148,38 +208,6 @@ div.tool-descriptor {
     border: 1px solid #333;
     text-decoration: none;
   }
-
-  a.launch-button {
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    border: 1px solid #878787;
-    border-radius: 20px;
-    line-height: 20px;
-    background-color: #00e49c;
-    color: #333333;
-    transition: 0.2s background-color ease;
-    text-align: center;
-    margin: 10px 0;
-
-    &:hover {
-      background-color: #45fbc2;
-    }
-
-  }
-
-  .tag, .attribute {
-    display: inline-block;
-    background-color: #333;
-    color: white;
-    padding: 2px 5px;
-    border-radius: 10px;
-    font-size: 80%;
-    text-transform: lowercase;
-  }
-
-  .attribute.success { background-color: green; }
-  .attribute.danger { background-color: red; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -201,6 +229,13 @@ div.tool-descriptor {
     }
   }
 
+  a.launch-button {
+    border-color: #004e0c;
+    &:hover {
+      background-color: #45fbc2;
+    }
+  }
+
   div.tool-descriptor {
     background-color: #525252;
 
@@ -211,12 +246,13 @@ div.tool-descriptor {
     &.graphics { background-color: var(--graphics-dark); }
     &.productivity { background-color: var(--productivity-dark); }
 
-    a.launch-button {
-      border-color: #004e0c;
-      &:hover {
-        background-color: #45fbc2;
-      }
-    }
+    .info { border-color: #fff; }
+  }
+
+  table.tool-metadata th { background-color: #666; }
+
+  span.tag, span.attribute {
+    background-color: #666;
   }
 }
 
