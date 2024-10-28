@@ -34,6 +34,9 @@ need to adapt the appropriate YAML file in the `_data`-directory and propose a
 Pull Request. Here's what data is required:
 
 * **Name**: The tool's name
+* **Slug**: A slug that can be used as URLs for the tools; must be lowercase,
+  only letters (a-z), numbers (0-9); replace spaces with hyphens (-) and remove
+  any other character; must be unique
 * **Author**: The author name (either an individual or an organization)
 * **Author Website**: A website to the author
 * **Link**: The actual link to the tool
