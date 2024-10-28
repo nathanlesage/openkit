@@ -29,7 +29,7 @@ function filterTools (query) {
   const results = fuzzy.filter(query, descriptors, {
     extract (d) {
       // Must return the value for which to match
-      return d.querySelector('h2.name').textContent
+      return d.querySelector('h2.name').textContent + " " + d.querySelector('span.tags').textContent
     }
   })
 
