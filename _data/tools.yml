@@ -226,3 +226,45 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: SVG to PNG
+  slug: svg-to-png
+  author: SIA Webby
+  author_website:
+  link: https://svgtopng.com/
+  synopsis: Convert SVG graphics to PNG or JPEG, or vice versa
+  category: graphics
+  tags: [
+    png, svg, convert, file, image, jpg, jpeg, pdf, eps
+  ]
+  description: |
+    SVG to PNG (and the related sites PNG to SVG, SVG to JPG, JPG to SVG, PDF to
+    SVG, SVG to PDF, EPS to SVG, and EPS to PNG) is a simple website that can
+    convert SVG files to PNG or JPG images, or vice versa. While the service
+    does upload your files to a webserver, the holder is Latvian and thus bound
+    by the EU GDPR. They promise to delete uploaded data within one hour.
+  mobile: true
+  type: proprietary
+  ads: true
+  premium: false
+  local: false
+################################################################################
+- tool_name: Convertico
+  slug: convertico
+  author: ProIcons
+  author_website: https://www.proicons.com/
+  link: https://convertico.com/
+  synopsis: Convert PNG files to ICO files
+  category: graphics
+  tags: [
+    png, ico, convert, file, image, jpg, jpeg
+  ]
+  description: |
+    Convertico is a small tool that converts images to ICO files, for use as,
+    e.g., favicons in websites. Note that icons will be shown in a list to other
+    users, and the website does not say for how long the data is being stored.
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: false
+  local: false
