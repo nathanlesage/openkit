@@ -268,3 +268,25 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: Browser Fingerprint
+  slug: browser-fingerprint
+  author: Leon Kohli
+  author_website: https://github.com/LeonKohli
+  link: https://trackme.dev/
+  source: https://github.com/LeonKohli/browser-fingerprint
+  synopsis: An app to demonstrate various browser fingerprinting techniques
+  category: development
+  tags: [
+    browser, fingerprint, lookup, webdev, privacy, security
+  ]
+  description: |
+    A modern web application that analyzes and displays your browser's unique
+    fingerprint. This tool demonstrates various browser fingerprinting
+    techniques and provides detailed insights about your browser's
+    characteristics.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: false
