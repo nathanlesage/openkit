@@ -1,17 +1,17 @@
 :root {
-  --business-light: #ffffb4;
-  --development-light: #86ffff;
-  --writing-light: #b0deb0;
-  --office-light: #c3e2fe;
-  --graphics-light: #ffc2ff;
-  --productivity-light: #ffb2b2;
+  --business-light: #ffff88;
+  --development-light: #00ffff;
+  --writing-light: #88ff88;
+  --office-light: #0088ff;
+  --graphics-light: #ff88ff;
+  --productivity-light: #ff8888;
 
-  --business-dark: #4b4b0f;
-  --development-dark: #015a5a;
-  --writing-dark: #204320;
-  --office-dark: #203445;
-  --graphics-dark: #502150;
-  --productivity-dark: #652222;
+  --business-dark: #ffff88;
+  --development-dark: #00ffff;
+  --writing-dark: #88ff88;
+  --office-dark: #0088ff;
+  --graphics-dark: #ff88ff;
+  --productivity-dark: #ff8888;
 }
 
 * {
@@ -79,8 +79,12 @@ footer .container.flex {
   justify-content: center;
 }
 
-img#header-logo {
+#header-logo {
   height: 100%;
+  display: inline-block;
+  aspect-ratio: 3.4; /* The aspect ratio of the image, to ensure the nav gets pushed */
+
+  img { height: 100%; }
 }
 
 nav {
@@ -177,18 +181,19 @@ div.tool-descriptor {
   width: 200px;
   font-size: 16px;
   background-color: #eeeeee;
+  border: 1px solid #333;
   padding: 10px;
   border-radius: 10px;
   position: relative;
   box-shadow: 5px 5px 5px 0px #2022;
 
   /* categories */
-  &.business { background-color: var(--business-light); }
-  &.development { background-color: var(--development-light); }
-  &.writing { background-color: var(--writing-light); }
-  &.office { background-color: var(--office-light); }
-  &.graphics { background-color: var(--graphics-light); }
-  &.productivity { background-color: var(--productivity-light); }
+  &.business { border-color: var(--business-light); }
+  &.development { border-color: var(--development-light); }
+  &.writing { border-color: var(--writing-light); }
+  &.office { border-color: var(--office-light); }
+  &.graphics { border-color: var(--graphics-light); }
+  &.productivity { border-color: var(--productivity-light); }
 
   h2 {
     font-size: 16px;
@@ -238,13 +243,14 @@ div.tool-descriptor {
 
   div.tool-descriptor {
     background-color: #525252;
+    border-color: #999;
 
-    &.business { background-color: var(--business-dark); }
-    &.development { background-color: var(--development-dark); }
-    &.writing { background-color: var(--writing-dark); }
-    &.office { background-color: var(--office-dark); }
-    &.graphics { background-color: var(--graphics-dark); }
-    &.productivity { background-color: var(--productivity-dark); }
+    &.business { border-color: var(--business-dark); }
+    &.development { border-color: var(--development-dark); }
+    &.writing { border-color: var(--writing-dark); }
+    &.office { border-color: var(--office-dark); }
+    &.graphics { border-color: var(--graphics-dark); }
+    &.productivity { border-color: var(--productivity-dark); }
 
     .info { border-color: #fff; }
   }

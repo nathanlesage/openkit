@@ -12,7 +12,9 @@
     <div id="app">
       <header>
         <div class="container flex">
-          <img id="header-logo" src="{{ 'assets/openkit.svg' | relative_url }}">
+          <a href="{{ '/' | relative_url }}" id="header-logo">
+            <img src="{{ 'assets/openkit.svg' | relative_url }}">
+          </a>
           <nav>
             <ul>
               <li><a href="{{ '/about' | relative_url }}">About</a></li>
