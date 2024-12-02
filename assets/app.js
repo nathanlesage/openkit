@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
   const searchbar = document.querySelector('input#searchbar')
 
+  if (searchbar === null) {
+    return // No searchbar on this page.
+  }
+
   // Maybe prefill the searchbar
   const search = new URLSearchParams(window.location.search)
   const query = search.get('q')
