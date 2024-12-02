@@ -121,6 +121,15 @@ table.tool-metadata {
     text-align: right;
     background-color: #ddd;
   }
+
+  /* Set the border radius on the left side */
+  tr:first-child th:first-child, tr:first-child td:first-child {
+    border-top-left-radius: 8px;
+  }
+
+  tr:last-child th:first-child, tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
 }
 
 #searchbar {
@@ -139,7 +148,7 @@ a.launch-button {
   padding: 10px;
   text-decoration: none;
   border: 1px solid #878787;
-  border-radius: 20px;
+  border-radius: 8px;
   line-height: 20px;
   background-color: #00e49c;
   color: #333333;
@@ -212,6 +221,11 @@ div.tool-descriptor {
     border-radius: 50%;
     border: 1px solid #333;
     text-decoration: none;
+  }
+
+  /* Align the launch buttons more nicely */
+  a.launch-button {
+    margin-bottom: 0;
   }
 }
 
