@@ -12,7 +12,7 @@ title: OpenKit | Free Web Tools
 
 <!-- TODO: Add filters -->
 
-<div class="flex wrap gap" style="padding: 0px 20px; margin-bottom: 40px; justify-content: center;">
+<div class="flex wrap gap" id="tools-registry-container">
   {% for tool in site.data.tools %}
     <div class="tool-descriptor flex column space-between {{ tool.category }}">
       <a href="/tools/{{ tool.slug }}" class="info" title="Click to view details">i</a>
