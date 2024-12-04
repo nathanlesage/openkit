@@ -41,8 +41,12 @@
     <meta name="robots" content="index, follow">
 
     <!-- Scripts -->
-    <script src="{{  'assets/app.js' | relative_url }}"></script>
-    <script src=" https://cdn.jsdelivr.net/npm/fuzzy/lib/fuzzy.min.js "></script>
+    <!-- Add the tools as a global variable so that we have them -->
+    <script>
+      var tools = {{ site.data.tools | jsonify }}
+    </script>
+    <script src="{{ 'assets/app.js' | relative_url }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuzzy/lib/fuzzy.min.js"></script>
   </head>
   <body>
     <div id="app">
