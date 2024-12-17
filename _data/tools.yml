@@ -290,3 +290,24 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: DepViz
+  slug: depviz
+  author: Hendrik Erz
+  author_website: https://www.hendrik-erz.de/
+  link: https://depviz.hendrik-erz.de/
+  source: https://github.com/nathanlesage/depviz
+  synopsis: Quickly visualize the dependency trees of sentences
+  category: science
+  tags: [
+    dependency trees, universal dependencies, python, server, linguistics
+  ]
+  description: |
+    DepViz is a visualization tool that can quickly and easily visualize the
+    dependency trees of a sentence. This visualizer uses Universal Dependencies
+    conventions. 
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: false
