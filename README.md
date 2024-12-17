@@ -51,6 +51,7 @@ Pull Request. Here's what data is required:
   * `office`: Office tools (calendar apps, notes, etc.)
   * `graphics`: Graphics and design-related tools (color wheels, etc.)
   * `productivity`: Productivity tools (e.g., Pomodoro timers)
+  * `science`: Tools that are mostly useful to scientists from various fields
 * **Tags**: A list of keywords that can help find this tool
 * **Description**: A longer description of what the tool offers
 * **Mobile**: Whether the app works on mobile. A few issues here and there are

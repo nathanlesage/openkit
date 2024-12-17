@@ -5,6 +5,7 @@
   --office-light: #0088ff;
   --graphics-light: #ff88ff;
   --productivity-light: #ff8888;
+  --science-light: #bbb;
 
   --business-dark: #ffff88;
   --development-dark: #00ffff;
@@ -12,6 +13,7 @@
   --office-dark: #0088ff;
   --graphics-dark: #ff88ff;
   --productivity-dark: #ff8888;
+  --science-dark: #999;
 
   --accent-color: #1c8bd5;
 }
@@ -156,7 +158,6 @@ a.launch-button {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  border: 1px solid #878787;
   border-radius: 8px;
   line-height: 20px;
   background-color: #00e49c;
@@ -193,6 +194,7 @@ span.tag, span.attribute {
   &.office { background-color: var(--office-light); }
   &.graphics { background-color: var(--graphics-light); }
   &.productivity { background-color: var(--productivity-light); }
+  &.science { background-color: var(--science-light); }
 }
 
 div.tool-descriptor {
@@ -212,6 +214,7 @@ div.tool-descriptor {
   &.office { border-color: var(--office-light); }
   &.graphics { border-color: var(--graphics-light); }
   &.productivity { border-color: var(--productivity-light); }
+  &.science { border-color: var(--science-light); }
 
   h2 {
     font-size: 16px;
@@ -257,11 +260,8 @@ div.tool-descriptor {
     }
   }
 
-  a.launch-button {
-    border-color: #004e0c;
-    &:hover {
-      background-color: #45fbc2;
-    }
+  a.launch-button:hover {
+    background-color: #45fbc2;
   }
 
   div.tool-descriptor {
@@ -274,6 +274,7 @@ div.tool-descriptor {
     &.office { border-color: var(--office-dark); }
     &.graphics { border-color: var(--graphics-dark); }
     &.productivity { border-color: var(--productivity-dark); }
+    &.science { border-color: var(--science-dark); }
 
     .info { border-color: #fff; }
   }
