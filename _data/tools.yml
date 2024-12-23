@@ -311,3 +311,22 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: cobalt
+  slug: cobalt-tools
+  author: Imput
+  author_website: https://github.com/imputnet
+  link: https://cobalt.tools/
+  source: https://github.com/imputnet/cobalt
+  synopsis: cobalt helps you save anything from your favorite websites: video, audio, photos or gifs.
+  category: productivity
+  tags: [
+    video, download, youtube, twitter
+  ]
+  description: |
+    cobalt helps you save anything from your favorite websites: video, audio, photos or gifs. It supports various platforms, including YouTube, and aims to be privacy-first.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: false
