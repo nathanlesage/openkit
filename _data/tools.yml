@@ -330,3 +330,26 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: Conference Timer
+  slug: conference-timer
+  author: Hendrik Erz
+  author_website: https://www.hendrik-erz.de/
+  link: https://conf-timer.hendrik-erz.de/
+  source: https://github.com/nathanlesage/conference-timer
+  synopsis: "Help your speakers visually manage their presentation time."
+  category: productivity
+  tags: [
+    timer, clock, conference, presentation, talk, keynote, session, chair
+  ]
+  description: |
+    Conference Timer is a small tool designed for the average scientific conference.
+    All you need is a laptop or tablet and you can display a timer for your session's
+    speakers. The app provides many templates, and allows one to create custom ones.
+    The app distinguishes between presentation and Q&A time, and allows for custom
+    reminders to be shown at various points during the countdown.
+  mobile: false
+  type: open-source
+  ads: false
+  premium: false
+  local: true
