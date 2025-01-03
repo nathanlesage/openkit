@@ -1,0 +1,98 @@
+name: Suggest Tool
+description: Suggest a new tool to list in OpenKit
+labels: suggestion
+
+body:
+# Intro
+- type: markdown
+  attributes:
+    value: |
+      # Suggest Tool
+
+      Use this template to suggest a new tool for inclusion in OpenKit. Please fill in all fields thoroughly, and double-check where necessary. Wrong information can undermine trust in OpenKit.
+# General information on the tool
+- type: input
+  attributes:
+    label: Name
+    placeholder: Official name of the tool
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Link
+    placeholder: "Enter the full link to the tool, e.g.: https://openkit.eu"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Synopsis
+    placeholder: Write a very (!) short summary of what the tool does
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Description
+    placeholder: Enter a longer description of the tool. Can start with the synopsis.
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Category
+    description: Choose the most fitting category for this tool.
+    options:
+      - Business
+      - Development
+      - Writing
+      - Office
+      - Graphics
+      - Productivity
+      - Science
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Tags
+    description: Think of about 5-7 keywords that users may search for that are relevant to this tool.
+    placeholder: "e.g., 'chart, data, plot'"
+  validations:
+    required: true
+
+# Further information about the tool, necessary for OpenKit
+- type: input
+  attributes:
+    label: Author
+    placeholder: Who is the author of this tool?
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Author Website
+    placeholder: Does the author have a website? (e.g., personal website, GitHub profile, etc.)
+  validations:
+    required: false
+- type: dropdown
+  attributes:
+    label: Type
+    description: Is the tool open source or proprietary?
+    options:
+      - Open Source
+      - Proprietary
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Source
+    placeholder: If the tool is Open Source, provide a link to its repository here.
+  validations:
+    required: false
+
+# Now the checks
+- type: checkboxes
+  attributes:
+    label: Tool Capabilities
+    description: Check the checkboxes appropriate for this tool
+    options:
+      - label: Does the tool work properly on phones?
+      - label: Does the tool show ads?
+      - label: Does the tool offer a premium option? (Essential features must be available without login)
+      - label: Does the tool work locally (i.e. only in the browser), or does it transmit data to a server?
