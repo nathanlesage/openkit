@@ -338,7 +338,7 @@
   link: https://conf-timer.hendrik-erz.de/
   source: https://github.com/nathanlesage/conference-timer
   synopsis: "Help your speakers visually manage their presentation time."
-  category: productivity
+  category: science
   tags: [
     timer, clock, conference, presentation, talk, keynote, session, chair
   ]
@@ -353,3 +353,43 @@
   ads: false
   premium: false
   local: true
+################################################################################
+- tool_name: Charter
+  slug: charter
+  author: Hendrik Erz
+  author_website: https://www.hendrik-erz.de/
+  link: https://charter.zettlr.com/
+  source: https://github.com/nathanlesage/Charter
+  synopsis: "Chart a few numbers on the fly"
+  category: science
+  tags: [
+    chart, plot, bar, line, data, numbers
+  ]
+  description: |
+    Charter is a small web-app that allows plotting a few small data points on the fly
+    for those instances in which you don't want to spin up R or Python.
+  mobile: false
+  type: open-source
+  ads: false
+  premium: false
+  local: true
+################################################################################
+- tool_name: Desmos calculator
+  slug: desmos-calculator
+  author: Desmos Studio, PBC
+  author_website: https://www.desmos.com/
+  link: https://www.desmos.com/calculator
+  source: https://github.com/nathanlesage/Charter
+  synopsis: "Chart a few numbers on the fly"
+  category: science
+  tags: [
+    calculator, graph, graphic, function, vector, interactive
+  ]
+  description: |
+    The Desmos calculator is a free tool that allows one to plot points, graph curves,
+    evaluate functions, and much more.
+  mobile: false
+  type: proprietary
+  ads: false
+  premium: false
+  local: false
