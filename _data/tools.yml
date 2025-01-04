@@ -379,7 +379,6 @@
   author: Desmos Studio, PBC
   author_website: https://www.desmos.com/
   link: https://www.desmos.com/calculator
-  source: https://github.com/nathanlesage/Charter
   synopsis: "Chart a few numbers on the fly"
   category: science
   tags: [
@@ -388,6 +387,27 @@
   description: |
     The Desmos calculator is a free tool that allows one to plot points, graph curves,
     evaluate functions, and much more.
+  mobile: false
+  type: proprietary
+  ads: false
+  premium: false
+  local: false
+################################################################################
+- tool_name: MockUPhone
+  slug: mockuphone
+  author: Skymakers
+  author_website: https://www.skymakers.digital/
+  link: https://mockuphone.com/
+  synopsis: Wrap screenshots with phone, laptop, tablet, or TV frames
+  category: business
+  tags: [
+    mockup, phone, tablet, laptop, tv, screen, screenshot
+  ]
+  description: |
+    MockUPhone is a small tool that allows you to upload screenshots or other
+    images and wraps them with the frame of various devices (phones, laptops,
+    TVs, tablets) from several brands so that it appears as if it is a photo
+    of the device.
   mobile: false
   type: proprietary
   ads: false
