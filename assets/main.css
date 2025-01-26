@@ -16,6 +16,8 @@
   --science-dark: #999;
 
   --accent-color: #1c8bd5;
+  --accent-color-dark: #004480;
+  --accent-color-mute: #b3bfd1;
 }
 
 * {
@@ -69,12 +71,12 @@ p {
 }
 
 header, footer {
-  background-color: #b3bfd1;
+  background-color: var(--accent-color-mute);
   color: white;
 
   .container.flex {
     align-items: center;
-    padding: 0;
+    /* padding: 0; */
     height: 100%;
 
     &.center { justify-content: center; }
@@ -148,6 +150,12 @@ table.tool-metadata {
   padding: 0px 20px;
   line-height: 40px;
   width: 100%;
+  transition: 0.5s outline ease;
+  outline: 2px solid transparent;
+
+  &:focus {
+    outline: 2px solid var(--accent-color);
+  }
 }
 
 div#tools-registry-container {
@@ -163,15 +171,15 @@ a.launch-button {
   text-decoration: none;
   border-radius: 8px;
   line-height: 20px;
-  background-color: #00e49c;
-  color: #333333;
+  background-color: var(--accent-color);
+  color: white;
   transition: 0.2s background-color ease;
   text-align: center;
   margin: 10px 0;
   width: 100%;
 
   &:hover {
-    background-color: #45fbc2;
+    background-color: var(--accent-color-dark);
   }
 }
 
@@ -271,10 +279,6 @@ div.tool-descriptor {
     &::placeholder {
       color: #aaa;
     }
-  }
-
-  a.launch-button:hover {
-    background-color: #45fbc2;
   }
 
   div.tool-descriptor {
