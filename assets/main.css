@@ -201,24 +201,33 @@ span.tag, span.attribute {
 }
 
 div.tool-descriptor {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 32px auto auto 50px;
+  align-items: center;
+  grid-template-areas:
+    "name info"
+    "description description"
+    "attributes attributes"
+    "launch-button launch-button";
   width: 200px;
   font-size: 16px;
   border: none;
   padding: 10px;
   border-radius: 5px;
-  position: relative;
   box-shadow: 0px 0px 15px 0px #2022;
-  transition: 0.5s box-shadow ease;
 
   h2 {
     font-size: 16px;
     margin: 0;
+    grid-area: name
   }
 
+  p.synopsis { grid-area: description; }
+  div.attributes { grid-area: attributes; }
+
   .info {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    grid-area: info;
     display: block;
     text-align: center;
     line-height: 20px;
@@ -231,6 +240,7 @@ div.tool-descriptor {
 
   /* Align the launch buttons more nicely */
   a.launch-button {
+    grid-area: launch-button;
     margin-bottom: 0;
   }
 
