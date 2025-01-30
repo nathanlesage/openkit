@@ -413,3 +413,22 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: crontab gutu
+  slug: crontab-guru
+  author: Cronitor
+  author_website: https://cronitor.io/
+  link: https://crontab.guru/
+  synopsis: Quickly generate execution date syntax for the crontab program
+  category: development
+  tags: [
+    crontab, tool, cronjob, cron, syntax, editor
+  ]
+  description: |
+    Crontab guru allows you to generate valid crontab syntax with explanations
+    as to what the various values mean, and what you can do with them.
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: false
+  local: true
