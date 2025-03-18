@@ -117,6 +117,7 @@ nav {
 
 table.tool-metadata {
   border-collapse: collapse;
+  width: 100%;
 
   th, td {
     padding: 5px;
