@@ -221,8 +221,8 @@ div.tool-descriptor {
   width: 200px;
   font-size: 16px;
   border: none;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 8px;
+  border-radius: 8px;
   box-shadow: 0px 0px 15px 0px #2022;
 
   h2 {
@@ -265,7 +265,7 @@ div.tool-descriptor {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #151515;
-    color: #b9ceee;
+    color: #d8d8d8;
   }
 
   header, footer {
@@ -273,9 +273,9 @@ div.tool-descriptor {
   }
 
   #searchbar {
-    background-color: #525252;
-    border-color: #333;
-    color: white;
+    background-color: #162235;
+    border-color: #151515;
+    color: inherit;
     &::placeholder {
       color: #aaa;
     }
