@@ -432,3 +432,22 @@
   ads: false
   premium: false
   local: true
+################################################################################
+- tool_name: Schej
+  slug: schej
+  author: Schej team
+  author_website: https://github.com/schej-it
+  link: https://schej.it/
+  source: https://github.com/schej-it/schej.it
+  synopsis: Meeting scheduling tool
+  category: productivity
+  tags: [
+    scheduling, time, meeting, foss
+  ]
+  description: |
+    Alternative to Doodle or When2Meet, but FOSS.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: false
