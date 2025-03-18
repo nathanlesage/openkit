@@ -264,8 +264,8 @@ div.tool-descriptor {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #333;
-    color: white;
+    background-color: #151515;
+    color: #b9ceee;
   }
 
   header, footer {
@@ -282,7 +282,7 @@ div.tool-descriptor {
   }
 
   div.tool-descriptor {
-    background-color: #525252;
+    background-color: #162235;
     border-color: #999;
 
     &.business { border-top: 2px solid var(--business-dark); }
@@ -296,7 +296,7 @@ div.tool-descriptor {
     .info { border-color: #fff; }
   }
 
-  table.tool-metadata th { background-color: #666; }
+  table.tool-metadata th { background-color: #162235; }
 
   span.tag, span.attribute {
     background-color: #666;
