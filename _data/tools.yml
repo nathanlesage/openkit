@@ -451,3 +451,22 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: KaTeX Online Editor
+  slug: katex-online-editor
+  author: Hendrik Erz
+  author_website: https://www.hendrik-erz.de/
+  link: https://nathanlesage.github.io/katex-online-editor/
+  source: https://github.com/nathanlesage/katex-online-editor
+  synopsis: "Render KaTeX Equations Online"
+  category: science
+  tags: [
+    latex, render, katex, mathtex, image, equation, math
+  ]
+  description: |
+    Sometimes all we need is just a way to quickly render a TeX equation into an image. This app allows you to do that using KaTeX. Insert your equation, adjust its size, and take a screenshot of the render.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: true
