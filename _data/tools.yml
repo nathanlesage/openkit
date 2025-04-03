@@ -470,3 +470,21 @@
   ads: false
   premium: false
   local: true
+################################################################################
+- tool_name: WAVE Web Accessibility Evaluation Tools
+  slug: web-accessibility-evaluation-tools
+  author: WebAIM
+  author_website: https://webaim.org/
+  link: https://wave.webaim.org/
+  synopsis: "Check the accessibility (a11y) of a website"
+  category: developer
+  tags: [
+    web, accessibility, evaluation, html, aria, a11y, website, homepage
+  ]
+  description: |
+    WAVE is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities. WAVE can identify many accessibility and Web Content Accessibility Guideline (WCAG) errors, but also facilitates human evaluation of web content.
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: true
+  local: false
