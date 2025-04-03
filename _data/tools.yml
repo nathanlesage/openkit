@@ -477,7 +477,7 @@
   author_website: https://webaim.org/
   link: https://wave.webaim.org/
   synopsis: "Check the accessibility (a11y) of a website"
-  category: developer
+  category: development
   tags: [
     web, accessibility, evaluation, html, aria, a11y, website, homepage
   ]
