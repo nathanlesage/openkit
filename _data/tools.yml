@@ -471,7 +471,7 @@
   premium: false
   local: true
 ################################################################################
-- tool_name: WAVE Web Accessibility Evaluation Tools
+- tool_name: WAVE
   slug: web-accessibility-evaluation-tools
   author: WebAIM
   author_website: https://webaim.org/
