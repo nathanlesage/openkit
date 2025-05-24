@@ -488,3 +488,22 @@
   ads: false
   premium: true
   local: false
+################################################################################
+- tool_name: XUtil
+  slug: xutil
+  author: Rohit P. Modani
+  author_website: https://github.com/RohitPModani
+  link: https://www.xutil.in/
+  source: https://github.com/RohitPModani/xutil
+  synopsis: "A collection of small web-developer utilities"
+  category: development
+  tags: [
+    web, utilities, website, development, tools
+  ]
+  description: |
+    XUtil is your no-nonsense, privacy-first toolbox for developers, built to eliminate the clutter and bloat from typical online utilities. No ads, no trackers, no signups—just fast, reliable tools that work.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: true
