@@ -507,3 +507,21 @@
   ads: false
   premium: false
   local: true
+################################################################################
+- tool_name: Cost of Living Calculator
+  slug: numbeo-cost-of-living
+  author: Numbeo
+  author_website: https://www.numbeo.com/
+  link: https://www.numbeo.com/cost-of-living/
+  synopsis: "Calculate and compare costs of living across cities and countries."
+  category: business
+  tags: [
+    calculator, cost-of-living, online, prices, economics
+  ]
+  description: |
+    Numbeo is the world's largest cost of living database and a crowdsourced global resource for quality of life data. It provides insights into cost of living, housing price indicators, perceived crime rates, healthcare quality, transport quality, and various other key statistics. 
+  mobile: true
+  type: proprietary
+  ads: true
+  premium: true
+  local: false
