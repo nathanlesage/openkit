@@ -525,3 +525,21 @@
   ads: true
   premium: true
   local: false
+################################################################################
+- tool_name: Lipsum
+  slug: lipsum
+  author: Publisher First, Inc.
+  author_website: https://freestar.com/
+  link: https://www.lipsum.com/
+  synopsis: "Generate Lorem Ipsum blindtexts."
+  category: business
+  tags: [
+    lipsum, lorem ipsum, generator, blindtext, text, publishing
+  ]
+  description: |
+    Lipsum is a tool by Publisher First, Inc. to quickly generate varying amounts of the classical Lorem Ipsum blindtext. It offers auto-generation of a specific number of paragraphs, words, bytes, or lists which the user can then copy from the website.
+  mobile: true
+  type: proprietary
+  ads: true
+  premium: false
+  local: false
