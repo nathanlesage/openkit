@@ -543,3 +543,22 @@
   ads: true
   premium: false
   local: false
+################################################################################
+- tool_name: Beamer Viewer
+  slug: lipsum
+  author: Euxane Tran-Girard
+  author_website: https://euxane.eu/
+  link: https://beamerviewer.euxane.eu/
+  source: https://src.euxane.eu/beamer-viewer/
+  synopsis: "Present Beamer slides with notes."
+  category: science
+  tags: [
+    beamer, latex, slides, presentations, keynote
+  ]
+  description: |
+    Beamer viewer is a web app that displays notes and slides in separate windows, keeping both synchronised. It accepts simple, double-width, or double-height PDF presentations.
+  mobile: false
+  type: open-source
+  ads: false
+  premium: false
+  local: true
