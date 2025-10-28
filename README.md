@@ -4,9 +4,9 @@
   OpenKit
 </h1>
 
-> OpenKit is a collection of small FOSS web-tools. Anything you sometimes need
-> but for which you don't need any dedicated app. It's your app directory for
-> tiny tasks. [Launch it here](https://openkit.eu/).
+> OpenKit is a collection of small FOSS and free web-tools. Anything you
+> sometimes need but for which you don't need any dedicated app. It's your
+> app directory for tiny tasks. [Launch it here](https://openkit.eu/).
 
 OpenKit is a search engine and registry for small web-based tools that run in
 your browser. Search for the tools you need, and launch them directly from the
@@ -14,7 +14,7 @@ website.
 
 ## Suggesting New Tools
 
-This project relies on a community to suggest new tools to add. Here's the
+This project relies on the community to suggest new tools to add. Here's the
 requirements:
 
 * It must run in a modern browser (no download)
