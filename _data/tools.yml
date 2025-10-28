@@ -545,7 +545,7 @@
   local: false
 ################################################################################
 - tool_name: Beamer Viewer
-  slug: lipsum
+  slug: beamer-viewer
   author: Euxane Tran-Girard
   author_website: https://euxane.eu/
   link: https://beamerviewer.euxane.eu/
@@ -562,3 +562,21 @@
   ads: false
   premium: false
   local: true
+################################################################################
+- tool_name: Diffcheck
+  slug: diff-check
+  author: Diffcheck.io
+  author_website: https://diffcheck.io/
+  link: https://diffcheck.io/
+  synopsis: "Preview text-based file changes."
+  category: development
+  tags: [
+    diff, online, check, text-diff, diffing, difference
+  ]
+  description: |
+    Quickly find the difference between two files. Paste or select your files and immediately see the differences.
+  mobile: false
+  type: proprietary
+  ads: false
+  premium: false
+  local: false
