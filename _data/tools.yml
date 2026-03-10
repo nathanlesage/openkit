@@ -580,3 +580,23 @@
   ads: false
   premium: false
   local: false
+################################################################################
+- tool_name: Pandoc
+  slug: pandoc
+  author: John McFarlane
+  author_website: https://pandoc.org/
+  link: https://pandoc.org/app
+  source: https://github.com/jgm/pandoc/
+  synopsis: "Convert documents in the browser"
+  category: science
+  tags: [
+    document, conversion, online, markdown, md, docx, word
+  ]
+  description: |
+    Convert documents in the browser using Pandoc, the universal document converter. Thanks to it running on WASM in the browser now, you can convert documents locally without them leaving your device from a webpage.
+  mobile: true
+  type: open-source
+  ads: false
+  premium: false
+  local: true
+  local: false
