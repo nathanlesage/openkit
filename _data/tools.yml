@@ -600,3 +600,22 @@
   premium: false
   local: true
   local: false
+################################################################################
+- tool_name: FM Stream
+  slug: fm-stream
+  author: fmstream.org
+  author_website: https://fmstream.org/
+  link: https://fmstream.org/
+  synopsis: "The Radio Stream Directory"
+  category: office
+  tags: [
+    radio, fm, online, web radio, stream
+  ]
+  description: |
+    A directory of web radio streams
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: false
+  local: true
+  local: false
