@@ -619,3 +619,27 @@
   premium: false
   local: true
   local: false
+################################################################################
+- tool_name: PPT Merger
+  slug: ppt-merger
+  author: xp kuai
+  author_website: https://pptmerger.org
+  link: https://pptmerger.org
+  synopsis: "Combine multiple PowerPoint decks into one"
+  category: office
+  tags: [
+    powerpoint, pptx, merge, presentation, slides, office, browser
+  ]
+  description: |
+    PPT Merger is a free online tool that combines multiple PowerPoint
+    (.pptx) files into one deck. Each deck keeps its own template, so
+    merging deck B into deck A doesn't break B's layout or fonts. Images,
+    shapes, SmartArt, animations, transitions and embedded video stay
+    intact. Everything runs locally in your browser, so your files are
+    never uploaded to a server. No sign-up, no watermark, and no limit on
+    the number of files.
+  mobile: true
+  type: proprietary
+  ads: false
+  premium: false
+  local: true
